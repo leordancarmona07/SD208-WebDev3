@@ -14,23 +14,35 @@ $bmi = $result * 10000;
     <title>BMI-Calculator</title>
 
     <style>
-        .contents{
-            margin: 0 auto;
-            text-align: center;
-            background-color: skyblue;
-            width: 20%;
+          body{
+            background-image:url("https://www.thehivegym.uk/wp-content/uploads/2017/07/bmi-background-2048px.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
         }
-        .submit{
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-        p{
-            width: 80%;
-            margin: 0 auto;
-            background-color: gray;
-            color: yellow;
-            font-size: 20px;
-        }
+    div div{
+        text-align: center;
+        
+    }
+    .contents{
+        width: 30%;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: 0 auto;
+        padding: 2% 2%;
+        margin-top: 10%;
+        
+        
+       
+    }
+    h1{
+        color: palevioletred;
+    }
+    
+    .submit{
+        margin: 20px;
+        background-color: palevioletred;
+    }
+    
     </style>
 </head>
 <body>

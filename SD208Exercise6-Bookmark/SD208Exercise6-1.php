@@ -17,23 +17,33 @@
     <title>Sessions and Cookies!</title>
 </head>
 <style>
-    body{
-        background-color: gray;
-    }
-    h1 ,h2{
-        padding-top: 10%;
-    }
-    button,#submit{
-       margin: 5%;
-       width: 50%
-    }
+     body{
+            background-image:url("https://www.goingbeyond.com/sites/default/files/content/bigstock-Bible-On-A-Picnic-Table-With-T-36856169.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
     div div{
         text-align: center;
+        
     }
     .container{
+        width: 30%;
+        background-color: rgba(255, 255, 255, 0.8);
         margin: 0 auto;
-        width: 20%;
-        background-color: lavender;
+        padding: 2% 2%;
+        margin-top: 12%;
+        
+        
+       
+    }
+    h1{
+        color: palevioletred;
+    }
+    
+    #submit, button{
+        margin: 20px;
+        background-color: palevioletred;
     }
     #bookmark,#url{
         width: 80%;

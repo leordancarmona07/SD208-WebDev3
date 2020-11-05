@@ -6,18 +6,25 @@
     <title>Form Validation</title>
     <style>
         body{
-            background-color: gray;
+            background-image:url("https://toppng.com/uploads/preview/1080p-abstract-design-wallpaper-11554124415uwrtckugcy.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
         }
         div div{
             text-align: center;
         }
         .container{
-            width: 30%;
-            background-color: lavender;
+            width: 60%;
+            background-color: rgba(255, 255, 255, 0.8);
             margin: 0 auto;
+            padding: 2% 2%;
         }
-        h3{
-            padding-bottom: 10%;
+        h1,h3{
+            color: palevioletred;
+        }
+        table{
+            border : 2px solid black;
         }
     </style>
 </head>
